@@ -1,0 +1,585 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+html p {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    color: #333333;
+}
+html h2 ,h3{
+    color: #333333;
+
+}
+
+/* --------------Begin css header------------------------------------------------------------------------- */
+
+
+/* --------------Begin css header-top-------------*/
+#container{
+    margin: 0 auto;
+    position: relative;
+
+}
+#header{
+    margin: 0 auto;
+    width: 1400px;
+    
+}
+#header .header-content{
+    line-height: 60px;
+}    
+.header-top{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+
+}
+#header .header-top-contact{
+    line-height: 60px;
+}
+.header-time{
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+    color: #948484;
+
+
+}
+#header .header-top-contact i{
+    font-size: 25px;
+    color: #948484;
+    position: absolute;
+    top: 19px;
+    right: 530px;
+
+}
+.header-top-contact input{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: green solid 1px;
+    font-size: 18px;
+    padding-left: 10px;
+
+
+}
+#header .header-top-contact >span{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+
+}
+/* --------------End css header-top---------------*/
+
+
+
+
+
+/* --------------Begin css header-midle-----------*/
+#container .background-baner{
+    position: absolute;
+    background-color: #2E3192;
+    background-size: cover ;
+    height: 200px;
+    top: 60px;
+    left: 0;
+    right: 0;
+
+}
+.header-midle{
+    position: absolute;
+    top:20px
+}
+#header .header-midle img{
+    width: 130px;
+    height: 130px;
+
+}
+#header .header-midle img.virus {
+    position: absolute;
+    top: 45px;
+    right: -500px;
+    border-radius: 50%;
+    
+}
+#header .header-midle h2{
+    margin: -25px 144px;
+    color: white;
+
+}
+/* --------------End css header-midle-------------*/
+
+
+
+/* --------------Begin css header-bot-----------*/
+.header-bot .nav-bar{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+        width: 1400px;
+
+}
+.header-bot .nav-bar ul{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.header-bot .nav-bar ul li,i {
+    list-style-type: none;
+    color: white;
+  
+  
+    
+}
+.header-bot .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+/* --------------End css header-bot-----------*/
+/* --------------End css header-------------------*/
+
+
+
+
+/* --------------Begin css Content-------------------*/
+#content{
+     
+    width: 1400px;
+    margin: 230px auto;
+}
+
+/* --------------begin css content-New-------------------*/
+#content .content-new{
+    display: flex;
+}
+#content .content-new .vn{
+    color: #2E3192;
+    padding-right: 30px;
+
+
+}
+#content .content-new .vn::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+#content .content-new .vn::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}
+#content .content-new .slash{
+    color: #1fc50c ;
+;
+}
+#content .content-new .world{
+   color: #8283BE;
+   margin-left: 30px;
+
+}
+#content .content-body{
+   display: flex;
+   width: 100%;
+   margin: 20px 0 ;
+
+}
+#content .content-body .one,.two,.three{
+    background-color: #FDE8E9;
+    padding: 0px 163px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+
+}
+#content .content-body .two{
+    background-color: #E9F6EC;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#content .content-body .three{
+    background-color: #F0EFF4;
+}
+
+#content .content-body .number1,.number2,.number3{
+   color: red;
+   font-size: 25px;
+   padding-top: 10px;
+}
+#content .content-body .number2{
+   color: #1fc50c;
+}
+#content .content-body .number3{
+   color: rgb(123, 123, 7);
+}
+
+
+/* --------------End css content-New-------------------*/
+.content-body-main{
+    margin-top: 40px;
+    display: flex;
+    height: 738px;
+    border-bottom: 2px  rgb(200, 195, 195) solid;
+    
+}
+/* --begin css new-left- */
+
+.newspaper-left{
+    width: 70%;
+    margin-right: 10px;
+}
+.newspaper-left img{
+    width: 95%;
+
+}
+.newspaper-left h2{
+    color: #333333;
+    font-size: 32px;
+    font-weight:600;
+    letter-spacing: 0.48px;
+    line-height: 37.2px;
+    margin:0px 0px 12px;
+    width: 96%;
+}
+/* --end css new-left- */
+
+/* --Begin css new-right- */
+
+.side-bar-text-right{
+    width: 40%;
+    position: relative;
+}
+.side-bar-text-right >.cover{
+    background-color: #F0F8FF;
+    height: 88%;
+    border: 1px solid rgb(222, 209, 209);
+    overflow:scroll;
+    position: relative;
+    margin-top: 20px;
+}
+.side-bar-text-right > h2{
+    color: #2E3192;
+}
+.side-bar-text-right .cover span{
+    font-size: 20px;
+    color: #BB1119;
+    padding: 15px 40px;
+}
+.side-bar-text-right > h2::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+.side-bar-text-right > h2::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}
+
+/* ---------------------------------- */
+.side-bar-text-right .cover span::after{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 21, 255);
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.side-bar-text-right .cover span::before{
+    width: 60%;
+    height:14px;
+    border-bottom: 1px solid #e5e5e5;
+    content: "";
+    position:absolute;
+    right: 0px;
+   
+}
+
+.side-bar-text-right .cover h2::after{
+    width: 5%;
+    height: 11px;
+    border-bottom: 3px solid #e5e5e5;
+    content: "";
+    position: absolute;
+    left: 15px;
+    margin-top: -37px;
+ 
+}
+ .side-bar-text-right .cover p {
+    padding: 20px ;
+    text-align: justify;
+    display: block;
+    text-indent: 25px;
+   
+}
+.side-bar-text-right .cover p::first-letter{
+    font-size: 30px;
+    font-weight: 600;
+    color: #2E3192;
+    text-transform: capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.side-bar-text-right span {
+    padding-top: 5px;
+    display: block;
+}
+.side-bar-text-right .cover > h2{
+    padding-left: 20px;
+}
+
+
+
+
+/* --------------Begin css content-body Table-------------------*/
+.content-body-table{
+    margin: 30px 0px;
+    display: flex;
+ 
+}
+
+/* css title table */
+.content-body-table h2{
+    color: #2E3192;
+    margin-bottom: 20px;
+}
+.content-body-table h2::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+.content-body-table h2::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}
+
+/* ------------------------------------------- */
+.content-body-table .table-left .table{
+    overflow-y: scroll;
+    height: 670px;  
+}
+
+.content-body-table .table-left table{
+    border-collapse: collapse;
+    border: 1px solid #ddd6d6;  
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.content-body-table .table-left table tr{
+    border: 1px solid #ddd6d6;
+}
+.content-body-table .table-left td,th{
+    padding: 25px ;
+    text-align:start;
+}
+.content-body-table .table-right{
+    width: 50%;
+    margin-top: 47.5px;
+    border: 1px solid #ddd6d6;  
+    margin-left: 89px;
+
+}
+
+
+/* --------------End css content-body table-------------------*/
+
+
+
+/* Begin css content-body- command */
+
+.content-body-command{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    border-top:  1px solid #ddd6d6;
+    padding-top: 70px;  
+    border-bottom: 1px solid #2574dc;
+    padding-bottom: 40px;
+}
+.content-body-command >.column-one{
+    width: 48%;
+    border-right: 1px solid #ddd6d6;
+    padding-right: 45px;
+}
+.content-body-command >.column-two{
+    width: 48%;
+}
+.content-body-command h2{
+    color:#2E3192;
+}
+.content-body-command h2::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+.content-body-command h2::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}
+.command{
+    display: flex;
+  
+}
+.content-body-command .command img{
+    height: 195px;
+    width: 300px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.content-body-command .command{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+/* End css content-body- command */
+
+
+/* Begin css content-body- prophylaxis - treatment */
+
+.column-one-prophylaxis-treatment .command img{
+    height: 500px;
+    width: 692px;
+  
+}
+.column-one-prophylaxis-treatment .command{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.column-one-prophylaxis-treatment{
+    width: 48%;
+    margin-top: -28px;
+}
+
+
+
+
+/* End css content-body- command -prophylaxis - treatment */
+
+
+
+/* Begin css  World-situation */
+.content-body-World-situation .around{
+  display:flex ;
+  justify-content: space-around;
+ gap: 30px;
+}
+.content-body-World-situation .over h3{
+letter-spacing: 1px;
+font-size: 20px;
+
+
+    
+}
+.content-body-World-situation .around img{
+    height: 240px;
+    width: 327px;
+    margin: 20px 0;
+}
+.content-body-World-situation h2{
+    color: #2E3192;
+    margin-top: 30px ;
+}
+.content-body-World-situation h2::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+.content-body-World-situation h2::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}
+
+/* End css World-situation*/
+
+
+
+
+/* Begin css content-body-Connect*/
+.content-body-Connect .connects{
+    display: flex;
+    justify-content: space-between;
+}
+.content-body-Connect h2{
+    margin-top: 100px;
+    color: #2E3192;
+}
+.content-body-Connect h2::before{
+    content: "";
+    border-left: 5px solid #2E3192;
+}.content-body-Connect h2::before{
+    content: "";
+    border-right: 5px solid  red;
+    margin-right: 15px;
+}
+
+.content-body-Connect .connects img{
+    height: 105px;
+    margin-top: 15px;
+}
+
+
+/* End css content-body-Connect*/
+
+
+
+
+/* Begin css content-body-footer*/
+.background-baner-footer{
+    position: absolute;
+    background-color: #2E3192;
+    background-size: cover;
+    height: 200px;
+    bottom: -485px;
+    left: 0px;
+    right: 0;
+   
+}
+
+html #footer img {
+    position: absolute;
+    left: 300px;
+    width: 180px;
+}
+
+#footer .contact-footer{
+    position: absolute;
+    left: 540px;
+    top: 80px;
+    color: white;
+}
+
+#footer .contact-footer li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+#footer .contact-footer h3{
+    color: white;
+}
+#footer .contact-footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+   
+}
+#footer{
+position: relative;
+}
+
+/* End css content-body-footer*/
+
+/* --------------End css content---------------------*/
+
